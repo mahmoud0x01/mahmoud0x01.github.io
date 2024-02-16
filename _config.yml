@@ -73,28 +73,28 @@ theme_mode: dark
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://github.com/mahmoud0x01/mahmoud0x01.github.io/blob/0024de61d4358bb5f89617f3d6f6846683a15856/assets/img/favicons/sitelogo.jpg"
+img_cdn: "https://github.com/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://github.com/mahmoud0x01/mahmoud0x01.github.io/blob/0024de61d4358bb5f89617f3d6f6846683a15856/assets/img/favicons/sitelogo.jpg"
+avatar: "/mahmoud0x01.github.io/blob/0024de61d4358bb5f89617f3d6f6846683a15856/assets/img/favicons/sitelogo.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+social_preview_image: "/mahmoud0x01.github.io/blob/0024de61d4358bb5f89617f3d6f6846683a15856/assets/img/favicons/sitelogo.jpg" # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
 toc: true
 
 comments:
-  active:
+  active: 'utterances'
  # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
-  disqus:
+  #disqus:
     shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
-  #utterances:
-    repo: # <gh-username>/<repo>
-    issue_term: # < url | pathname | title | ...>
+  utterances:
+    repo: "mahmoud0x01/mahmoud0x01.github.io"
+    issue_term: "pathname"
   # Giscus options › https://giscus.app
   #giscus:
     repo: 'mahmoud0x01/mahmoud0x01.github.io' 
